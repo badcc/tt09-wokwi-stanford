@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Half adder
+This is a simple clock divider made during the TT9 event at Stanford! I learned how a D FLIP FLOP can be chained.
 
 ## How to test
 
-Click some inputs, see some xor and carry
+Turn it on .. and can flip Input0 to disable it, but maintain state!
 
 ## External hardware
 
-LEDS
+LEDs or segment display
