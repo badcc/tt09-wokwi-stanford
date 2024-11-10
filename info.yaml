@@ -4,7 +4,7 @@ project:
   title:        "clock div"      # Project title
   author:       "alex b"      # Your name
   discord:      "badcc"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "simple flip flop clock divider that can be disabled by IN0"      # One line description of what your project does
+  description:  "a simple flip flop clock divider that can be disabled by IN0"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     10       # Clock frequency in Hz (or 0 if not applicable)
 
