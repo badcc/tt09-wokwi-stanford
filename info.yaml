@@ -1,12 +1,12 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     414120415300298753       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        "add it"      # Project title
+  wokwi_id:     414190948542514177       # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title:        "clock div"      # Project title
   author:       "alex b"      # Your name
   discord:      "badcc"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "half adder"      # One line description of what your project does
+  description:  "simple flip flop clock divider that can be disabled by IN0"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
-  clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
+  clock_hz:     10       # Clock frequency in Hz (or 0 if not applicable)
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
   tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
@@ -16,7 +16,7 @@ project:
 pinout:
   # Inputs
   ui[0]: "IN0"
-  ui[1]: "IN1"
+  ui[1]: ""
   ui[2]: ""
   ui[3]: ""
   ui[4]: ""
@@ -27,12 +27,12 @@ pinout:
   # Outputs
   uo[0]: "OUT0"
   uo[1]: "OUT1"
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[2]: "OUT2"
+  uo[3]: "OUT3"
+  uo[4]: "OUT4"
+  uo[5]: "OUT5"
+  uo[6]: "OUT6"
+  uo[7]: "OUT7"
 
   # Bidirectional pins
   uio[0]: ""
